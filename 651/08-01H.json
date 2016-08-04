@@ -1,0 +1,66 @@
+{
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "E:4 gm 16.12 mg", 
+    "commit": "c834022a68d2b072c3c8ed5f9d4668821a8e6363", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "65108", 
+    "increment": 7, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-284", 
+    "irradiation_level": "E", 
+    "irradiation_position": 4, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "Constenius", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Constenius", 
+    "sample": "408271501KC", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-08-04T13:56:58.056171", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "1ec55fd2-bb4e-4cf2-853d-d4070b58a5d6"
+}
